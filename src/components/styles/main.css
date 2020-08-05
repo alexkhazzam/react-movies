@@ -1,0 +1,39 @@
+.movie-section {
+  margin: 50px;
+  width: 30%;
+  height: fit-content;
+  word-wrap: break-word;
+  border: 2px solid orange;
+  padding: 20px;
+  margin: auto;
+  text-align: center;
+}
+
+.movie {
+  font-weight: bold;
+  color: black;
+}
+
+.genre {
+  font-weight: bold;
+  color: green;
+}
+
+.rating {
+  font-weight: bold;
+  color: red;
+}
+
+input {
+  text-align: center;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid black;
+  font-size: 15px;
+  display: block;
+  margin: 15px auto;
+}
+
+input:focus {
+  outline: none;
+}

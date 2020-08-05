@@ -1,0 +1,30 @@
+body {
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+button {
+  cursor: pointer;
+  margin: auto;
+  text-align: center;
+  border: none;
+  background-color: red;
+  border: 2px solid red;
+  color: white;
+  border-radius: 10px;
+  width: 150px;
+  height: 85px;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+}
